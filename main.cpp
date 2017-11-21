@@ -1,6 +1,6 @@
 #include <string>
 
-#ifdef WIN32
+#ifdef _WIN32
 #define __func__ __FUNCTION__ //For VS2013 compatibility
 #endif
 
