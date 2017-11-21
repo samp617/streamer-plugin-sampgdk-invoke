@@ -1,5 +1,9 @@
 #include <string>
 
+#ifdef WIN32
+#define __func__ __FUNCTION__ //For VS2013 compatibility
+#endif
+
 #include "sampgdk/sampgdk.h"
 #include "main.hpp"
 
